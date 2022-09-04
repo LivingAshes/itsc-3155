@@ -1,4 +1,4 @@
-#program 4
+#program 4 Jeremie Koehler 9/3/22
 
 itnum = int(input("Number of items: "))
 itemlist = list()

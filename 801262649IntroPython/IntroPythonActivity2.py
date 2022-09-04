@@ -1,4 +1,4 @@
-#program 2
+#program 2 Jeremie Koehler 9/3/22
 num1 = int(input("Please enter a number: "))
 num2 = int(input("Please enter a second number: "))
 str1 = ("")

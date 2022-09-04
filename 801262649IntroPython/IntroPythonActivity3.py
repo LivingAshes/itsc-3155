@@ -1,4 +1,4 @@
-#program 3
+#program 3 Jeremie Koehler 9/3/22
 
 dicta = input("Input first dictionary: ")
 dictb = input("Input second dictionary: ")

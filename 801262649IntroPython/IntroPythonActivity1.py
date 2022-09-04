@@ -1,4 +1,4 @@
-#program 1
+#program 1 Jeremie Koehler 9/3/22
 def stringBothEnds(str):
     if len(str) < 2 :
         return "Your String is too short! "

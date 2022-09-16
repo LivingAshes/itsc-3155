@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--Jeremie Koehler 9/15/22-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--TextBox and Button that asks and takes users name-->
+    <input id="name-input" type="text" placeholder="Enter your name" />
+    <button id="my-button">Click Me</button>
+
+    <!--Java Script to retreive the values in the textbox and display a prompt saying hello to the user by name-->
+    <script>
+        var myButton = document.querySelector('#my-button');
+        var nameInput = document.querySelector('#name-input');
+        //displays a prompt with the word Hello and the users name
+        myButton.addEventListener('click', function () {
+            if (nameInput.value !== '') {
+                alert('Hello ' + nameInput.value);
+            }
+        });
+    </script>
+</body>
+</html>
